@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: es.udc.paproject.backend.test.model.services.BillboardServiceTest
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.741 s - in es.udc.paproject.backend.test.model.services.BillboardServiceTest

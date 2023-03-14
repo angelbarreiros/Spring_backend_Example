@@ -1,0 +1,34 @@
+version: "3"
+services:
+  db:
+    build:
+      context: .
+      dockerfile: ./db.dockerfile
+    image: db
+    ports:
+      - "3306:3306"
+    healthcheck:
+      test: mysqladmin ping -h 127.0.0.1 -u root --password=pa
+      interval: 1s
+      retries: 120
+    volumes:
+      - db_data:/var/lib/mysql
+
+
+  backend:
+    build:
+      context: .
+      dockerfile: ./backend.dockerfile
+    image: backend
+    ports:
+      - 8080:8080
+    environment:
+      -SPRING_DATASOURCE_PASSWORD: pa
+      -SPRING_DATASOURCE_URL: jdbc:mysql://db:3306/paproject
+      -SPRING_DATASOURCE_USERNAME: pa
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  db_data:

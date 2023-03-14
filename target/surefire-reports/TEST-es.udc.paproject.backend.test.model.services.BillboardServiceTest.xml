@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="es.udc.paproject.backend.test.model.services.BillboardServiceTest" time="6.741" tests="9" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="nonExistSession" classname="es.udc.paproject.backend.test.model.services.BillboardServiceTest" time="0.285"/>
+  <testcase name="sessionHasStarted" classname="es.udc.paproject.backend.test.model.services.BillboardServiceTest" time="0.199"/>
+  <testcase name="filmNotFound" classname="es.udc.paproject.backend.test.model.services.BillboardServiceTest" time="0.017"/>
+  <testcase name="getYesterdayBillboardTest" classname="es.udc.paproject.backend.test.model.services.BillboardServiceTest" time="0.027"/>
+  <testcase name="sessionInfoTest" classname="es.udc.paproject.backend.test.model.services.BillboardServiceTest" time="0.027"/>
+  <testcase name="getTodayBillboardTest" classname="es.udc.paproject.backend.test.model.services.BillboardServiceTest" time="0.031"/>
+  <testcase name="insertAndGetMovie" classname="es.udc.paproject.backend.test.model.services.BillboardServiceTest" time="0.02"/>
+  <testcase name="getTomorrowBillboardTest" classname="es.udc.paproject.backend.test.model.services.BillboardServiceTest" time="0.031"/>
+  <testcase name="notGettingSessionsStartingTomorrow" classname="es.udc.paproject.backend.test.model.services.BillboardServiceTest" time="0.03"/>
+</testsuite>

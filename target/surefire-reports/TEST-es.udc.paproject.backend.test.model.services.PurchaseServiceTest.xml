@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="es.udc.paproject.backend.test.model.services.PurchaseServiceTest" time="0.55" tests="13" errors="0" skipped="0" failures="0">
+  <properties/>
+  <testcase name="ticketDeliveryCorrectlyTest" classname="es.udc.paproject.backend.test.model.services.PurchaseServiceTest" time="0.058"/>
+  <testcase name="buyNonExistSessionTest" classname="es.udc.paproject.backend.test.model.services.PurchaseServiceTest" time="0.022"/>
+  <testcase name="ticketDeliveryFailTransactionNumberTest" classname="es.udc.paproject.backend.test.model.services.PurchaseServiceTest" time="0.039"/>
+  <testcase name="buyWhenFullSession" classname="es.udc.paproject.backend.test.model.services.PurchaseServiceTest" time="0.031"/>
+  <testcase name="paginationTest" classname="es.udc.paproject.backend.test.model.services.PurchaseServiceTest" time="0.119"/>
+  <testcase name="buyTest" classname="es.udc.paproject.backend.test.model.services.PurchaseServiceTest" time="0.056"/>
+  <testcase name="testHistory" classname="es.udc.paproject.backend.test.model.services.PurchaseServiceTest" time="0.018"/>
+  <testcase name="alreadyUsedTickets" classname="es.udc.paproject.backend.test.model.services.PurchaseServiceTest" time="0.042"/>
+  <testcase name="userNotFound" classname="es.udc.paproject.backend.test.model.services.PurchaseServiceTest" time="0.013"/>
+  <testcase name="buyWhenStartedSession" classname="es.udc.paproject.backend.test.model.services.PurchaseServiceTest" time="0.031"/>
+  <testcase name="buyNonExistUserTest" classname="es.udc.paproject.backend.test.model.services.PurchaseServiceTest" time="0.026"/>
+  <testcase name="ticketDeliveryFailDateTest" classname="es.udc.paproject.backend.test.model.services.PurchaseServiceTest" time="0.031"/>
+  <testcase name="getHistory" classname="es.udc.paproject.backend.test.model.services.PurchaseServiceTest" time="0.037"/>
+</testsuite>
